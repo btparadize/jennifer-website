@@ -24,6 +24,8 @@
 		<script>
 			var headOfficeLat = <?php $variables['head_office_lat']; ?>
 			var headOfficeLng = <?php $variables['head_office_lng']; ?>
+			var headOfficeZoom = <?php $variables['head_office_zoom']; ?>
+			var headOfficeAddress = <?php $variables['address']; ?>
 		</script>
 	</head>
 	<body>

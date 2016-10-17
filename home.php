@@ -2,8 +2,6 @@
 <?php include('templates/header.php'); ?>
 <?php include('templates/nav.php'); ?>
 
-
-
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8 col-md-8 col-lg-8">
@@ -62,7 +60,5 @@
 		</div>
 	</div>
 </div>
-
-
 
 <?php include('templates/footer.php'); ?>
