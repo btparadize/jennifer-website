@@ -1,0 +1,14 @@
+{
+  "name": "jennifer",
+  "authors": [
+    "Brian <btparadize@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
