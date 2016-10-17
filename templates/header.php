@@ -1,3 +1,4 @@
+<?php include('templates/variables.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +12,7 @@
 		<!-- Bootstrap -->
 		<link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 		<link href="lib/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,6 +20,11 @@
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+
+		<script>
+			var headOfficeLat = <?php $variables['head_office_lat']; ?>
+			var headOfficeLng = <?php $variables['head_office_lng']; ?>
+		</script>
 	</head>
 	<body>
 		<div id="banner" class="container">
@@ -28,7 +35,7 @@
 				<div class="col-sm-6 col-md-6 col-lg-6">
 					<p class="text-right h2 text-warning">
 						<span class="glyphicon glyphicon-phone-alt"></span>
-						<span class="h5">0948-547-6238/0946-683-2792</span>
+						<span class="h5"><?php echo $variables['contact_number']; ?></span>
 					</p>
 				</div>
 			</div>
