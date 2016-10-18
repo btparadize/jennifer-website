@@ -1,4 +1,3 @@
-<?php include('templates/variables.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,10 +21,10 @@
 		<![endif]-->
 
 		<script>
-			var headOfficeLat = <?php $variables['head_office_lat']; ?>
-			var headOfficeLng = <?php $variables['head_office_lng']; ?>
-			var headOfficeZoom = <?php $variables['head_office_zoom']; ?>
-			var headOfficeAddress = <?php $variables['address']; ?>
+			var headOfficeLat = <?php echo $variables['head_office_lat']; ?>;
+			var headOfficeLng = <?php echo $variables['head_office_lng']; ?>;
+			var headOfficeZoom = <?php echo $variables['head_office_zoom']; ?>;
+			var headOfficeAddress = '<?php echo $variables['address']; ?>';
 		</script>
 	</head>
 	<body>

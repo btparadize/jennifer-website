@@ -1,4 +1,4 @@
-
+<?php require_once('templates/main.php'); ?>
 <?php include('templates/header.php'); ?>
 <?php include('templates/nav.php'); ?>
 
